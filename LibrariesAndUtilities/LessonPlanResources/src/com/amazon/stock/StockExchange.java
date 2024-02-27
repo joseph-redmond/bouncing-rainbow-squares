@@ -16,7 +16,7 @@ public class StockExchange {
                 .build();
         }
 
-        if (symbol.equals("wfm") | symbol.equals("nonexistent")) {
+        if ("wfm".equals(symbol) | "nonexistent".equals(symbol)) {
             return null;
         }
 
